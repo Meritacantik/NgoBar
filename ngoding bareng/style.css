@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Pacifico&family=Poppins:wght@100;300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #0000000A;
+    padding: 26px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kanan {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    margin-right: 48px;
+}
+
+.menu a {
+    color: black;
+    margin: 0 8px;
+}
+
+.tombol .tombol-utama {
+    color: azure;
+    background-color: #1A49A3;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.tombol .tombol-utama:hover{
+    color: azure;
+    background-color: rgb(74, 74, 255);
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px 100px;
+}
+
+.content .ktkr {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+    color: #1A49A3;
+    padding: 40px 10px 20px;
+
+}
+
+.content p {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1A49A3;
+    padding: 20px 10px;
+}
+
+.join {
+    display: flex;
+    padding: 70px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.tombol-join {
+    display: flex;
+    color: azure;
+    background-color: #1A49A3;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.hero-img {
+    display: flex;
+    margin: 30px;
+    border: 4px dashed;
+    border-radius: 0 0 0 144px;
+}
+
+.hero-img img {
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    padding: 0;
+    border-radius: 0 0 0 144px;
+}
+
+.card {
+    display: flex;
+    background-color: #1A49A3;
+    padding: 60px;
+}
+
+.card-dl {
+    margin: 10px;
+    padding: 20px;
+}
+
+.card-dl h3{
+    color: azure;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.card-dl p {
+    color: azure;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card-image img{
+    padding: 6px;
